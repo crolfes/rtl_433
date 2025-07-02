@@ -594,6 +594,42 @@ mappings = {
         }
     },
 
+    "power1_W": {
+       "device_type": "sensor",
+       "object_suffix": "watts",
+       "config": {
+           "device_class": "power",
+           "name": "Power",
+           "unit_of_measurement": "W",
+           "value_template": "{{ value|float }}",
+           "state_class": "measurement"
+       }
+    },
+
+    "power2_W": {
+        "device_type": "sensor",
+        "object_suffix": "watts",
+        "config": {
+            "device_class": "power",
+            "name": "Power",
+            "unit_of_measurement": "W",
+            "value_template": "{{ value|float }}",
+            "state_class": "measurement"
+        }
+    },
+
+    "power3_W": {
+        "device_type": "sensor",
+        "object_suffix": "watts",
+        "config": {
+            "device_class": "power",
+            "name": "Power",
+            "unit_of_measurement": "W",
+            "value_template": "{{ value|float }}",
+            "state_class": "measurement"
+        }
+    },
+  
     "energy_kWh": {
         "device_type": "sensor",
         "object_suffix": "kwh",
